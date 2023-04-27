@@ -1,4 +1,110 @@
-    *{
+    * {
         padding: 0;
         margin: 0;
+        font-size: 13px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: initial;
     }
+
+    main {
+        margin-inline: 5%;
+        margin-block: 20%;
+    }
+
+    img {
+        border-radius: 90px;
+    }
+
+    /* Variables */
+    :root {
+        /* Color primary */
+        --Moderate-violet: hsl(263, 55%, 52%);
+        --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+        --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+        --White: hsl(0, 0%, 100%);
+
+        /* Color secondary */
+        --Light-gray: hsl(0, 0%, 81%);
+        --Light-grayish-blue: hsl(210, 46%, 95%);
+    }
+
+
+
+
+    body{
+        background-color: var(--Light-grayish-blue);
+    }
+
+
+    main{
+        
+        display: grid;
+        gap: 1.8rem;
+    }
+
+
+    article{
+        border-radius: 10px;
+        padding: 2rem;  
+    }
+
+
+    article h1{
+        font-size: 20px;
+        opacity: 70%;
+        padding-block: 1rem;
+        font-weight: 600;
+        }
+
+
+    article p{
+        opacity: 70%;
+
+             }
+     .flex{
+        display: flex;
+        align-items: center;
+    }     
+    .flex header{
+        padding-inline: 1rem; 
+    }   
+    
+    .flex header p{
+        opacity: 50%;
+    }
+    
+
+    main .daniel{
+        background-color: var(--Moderate-violet);  
+        color: white; 
+    }
+    
+
+
+
+    main .jonathan{
+        background-color: var(--Very-dark-grayish-blue);
+        color: white;
+    }
+
+
+    main .jaenette{
+        background-color: var(--White); 
+        color: var(--Very-dark-blackish-blue);
+    }
+
+
+   main .patrick{
+        background-color: var(--Very-dark-blackish-blue);
+        color: white;
+    }
+
+
+    main .kira{
+        background-color: var(--White);
+    }
+
+
+
+    
+
