@@ -32,7 +32,9 @@
 
 
     body {
+        display: flex;
         background-color: var(--Light-grayish-blue);
+        justify-content:center ;
     }
 
 
