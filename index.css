@@ -234,6 +234,7 @@
     }
     article{
         padding: 2rem;
+        border-radius: 5px;
     }
     .flex{
     }
