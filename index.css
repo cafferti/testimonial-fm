@@ -7,8 +7,8 @@
     }
 
     main {
-        margin-inline: 5%;
-        margin-block: 20%;
+        margin-inline: auto;
+        width: 80%;
     }
 
     img {
@@ -33,13 +33,16 @@
 
     body {
         display: flex;
+        flex-direction: column;
         background-color: var(--Light-grayish-blue);
         justify-content:center ;
+        align-items: center;
+        margin-block: 10rem;
     }
 
 
     main {
-        max-width:385px ;
+
 
         display: grid;
         gap: 1.8rem;
@@ -138,10 +141,14 @@
     main .daniel {
         background-color: var(--Moderate-violet);
         color: white;
-    }
+        background-image: url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: top 0 right 6%;
+        background-size: 36%;
+    }  
 
 
-
+   
 
     main .jonathan {
         background-color: var(--Very-dark-grayish-blue);
@@ -164,3 +171,54 @@
     main .kira {
         background-color: var(--White);
     }
+    @media (min-width: 740px) {
+        main{
+            gap: 10px;
+            display: grid;
+            max-width: 100%;
+            grid-template-columns:1fr 1fr 1fr 1fr ;
+            grid-template-rows:1fr 1fr;
+            grid-template-areas: 
+            "daniel daniel jonathan kira"
+            "jaenette patrick patrick kira"
+            
+            
+        }
+    main .daniel {
+        grid-area:daniel;
+
+
+    }
+
+
+    main .jonathan {
+        grid-area: jonathan;
+      
+    }
+
+
+    main .jaenette {
+        grid-area: jaenette;
+        
+    }
+
+
+    main .patrick {
+        grid-area: patrick;
+    
+    }
+
+
+    main .kira {
+        grid-area: kira;
+
+    }
+    article>p {
+        font-size: 0.8rem;
+
+    }
+    article h1{
+        font-size: 15px;
+    }
+    }
+    
