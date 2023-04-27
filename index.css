@@ -172,10 +172,22 @@
         background-color: var(--White);
     }
     @media (min-width: 740px) {
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        *{
+         font-size: 8px;
+        }
+        article >p{
+            font-size: 11px;
+        }
         main{
-            gap: 10px;
+            
+            
+            gap: 15px;
             display: grid;
-            max-width: 100%;
+            max-width: 70%;
             grid-template-columns:1fr 1fr 1fr 1fr ;
             grid-template-rows:1fr 1fr;
             grid-template-areas: 
@@ -214,11 +226,24 @@
 
     }
     article>p {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
 
     }
     article h1{
-        font-size: 15px;
+        font-size: 18px;
     }
+    article{
+        padding: 2rem;
+    }
+    .flex{
+    }
+    main .daniel {
+        background-color: var(--Moderate-violet);
+        color: white;
+        background-image: url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: top 0 right 8%;
+        background-size: 17%;
+        }
     }
     
