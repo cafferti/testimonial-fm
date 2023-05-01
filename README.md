@@ -57,8 +57,8 @@ efficient use of grid
 
 ### Useful resources
 
-- [font awesome](https://www.font-awesome.com) - This helped me to obtain my logos and social links. I really liked this pattern and will use it going forward.
-- [google fonts](https://www.google-fonts.com) - This is an amazing website which helped me obtain all the fonts used in this project. I'd recommend it to anyone still learning this concept.
+- [font awesome](https://www.fontawesome.com) - This helped me to obtain my logos and social links. I really liked this pattern and will use it going forward.
+- [google fonts](https://www.googlefonts.com) - This is an amazing website which helped me obtain all the fonts used in this project. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
