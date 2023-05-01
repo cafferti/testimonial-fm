@@ -65,7 +65,6 @@ efficient use of grid
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 instagram - [@saul](https://www.instagram.com/dude_christiian)
 - Frontend Mentor - [@cafferti](https://www.frontendmentor.io/profile/cafferti)
 - Twitter - [@broke-cafferti](https://www.twitter.com/saulkumvee)
