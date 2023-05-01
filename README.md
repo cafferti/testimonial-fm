@@ -36,9 +36,7 @@ Users should be able to:
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://cafferti.github.io/testimonial-fm/)
+- Live Site URL: [visit project live site ](https://cafferti.github.io/testimonial-fm/)
 
 ## My process
 
@@ -59,8 +57,8 @@ efficient use of grid
 
 ### Useful resources
 
-- [Example resource 1](https://www.font-awesome.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.google-fonts.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [font awesome](https://www.font-awesome.com) - This helped me to obtain my logos and social links. I really liked this pattern and will use it going forward.
+- [google fonts](https://www.google-fonts.com) - This is an amazing website which helped me obtain all the fonts used in this project. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
